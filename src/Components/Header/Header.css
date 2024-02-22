@@ -1,0 +1,28 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 10px 20px;
+    background-color: antiquewhite;
+    flex-direction: row;
+}
+.navbar {
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+.navbar Link {
+    display: inline-block;
+    padding: 10px 20px;
+    height: 70px;
+    width: 70px;
+    gap: 10px;
+}

@@ -1,0 +1,39 @@
+body{
+    background-color:blueviolet;
+    font-family: 'Times New Roman', Times, serif;
+}
+.signup{
+    width: 360px;
+    height: 620px;
+    margin: auto;
+    background-color: antiquewhite;
+    border-radius: 3px;
+}
+h1{
+    text-align: center;
+    padding: 15px;
+}
+form{
+    width: 300px;
+    margin-left: 20px;
+}
+form label{
+    display: flex;
+    margin-top: 20px;
+    font-weight: 10px;
+}
+form input{
+    width: 100%;
+    padding: 7px;
+    border: 1px solid grey;
+    border-radius: 6px;
+}
+input[type='button']{
+    width: 320px;
+    height: 35px;
+    margin-top: 20px;
+    border: none;
+    background-color: lightgreen;
+    font-size: 15px;
+    color: white;
+}
